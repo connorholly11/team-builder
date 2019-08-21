@@ -27,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-        {/* <Form/> */}
+        <Form/>
       </header>
     </div>
   );
