@@ -7,11 +7,11 @@ import Data from './data';
 
 
 
-
 function App() {
   
   const [members, setMembers] = useState(Data);
-  
+  console.log(members);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -27,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-        <Form/>
+        {/* <Form/> */}
       </header>
     </div>
   );
