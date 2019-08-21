@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Form from './form';
 import Data from './data';
+import Team from './team';
 
 
 
@@ -11,6 +12,10 @@ function App() {
   
   const [members, setMembers] = useState(Data);
   console.log(members);
+
+  const addNewMember = props => {
+    setMembers([...members, props])
+  }
 
   return (
     <div className="App">
@@ -27,7 +32,8 @@ function App() {
         >
           Learn React
         </a>
-        <Form/>
+        <Form addNewMember={addNewMember}/>
+        <Team notes={members}/>
       </header>
     </div>
   );
