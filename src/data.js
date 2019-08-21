@@ -1,17 +1,17 @@
 export default [
     {
       id: 1,
-      Name: "Connor",
-      Email:
+      name: "Connor",
+      email:
         "aweofijo@gmail.com",
-        Role: "Front-end"
+        role: "Front-end"
     },
     {
         id: 2,
-        Name: "Ben",
-        Email:
+        name: "Ben",
+        email:
           "aweofijo@gmail.com",
-          Role: "Back-end"
+          role: "Back-end"
       }
   ];
   

@@ -13,6 +13,7 @@ function App() {
   const [members, setMembers] = useState(Data);
   console.log(members);
 
+
   const addNewMember = props => {
     setMembers([...members, props])
   }
